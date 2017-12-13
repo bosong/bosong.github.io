@@ -40,5 +40,3 @@ tags: iOS
 [关于 IOS8 锁屏左下方出现的 APP ICON](https://www.v2ex.com/t/142320) 
 
 <br>
-
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/09/iOSLowerLeftAppicon/)     
