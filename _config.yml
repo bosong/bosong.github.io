@@ -1,24 +1,24 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
-description: 欢迎来到我的个人站~
+title: 宋波
+subtitle: 个人博客
+description: 欢迎来到我的博客~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: Elvison
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: iOS / NodeJs学习
+url: "http://bosong.github.io"
 
 # Comment
 comment:
-    disqus: leopard
+    disqus: Elvison
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    weibo: 2116897990
+    github: Elvison
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: songbo469621765@163.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
