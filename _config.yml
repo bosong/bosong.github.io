@@ -1,70 +1,59 @@
-# Basic
+# Site settings 配置站点
 title: Elvison
 subtitle: IOS开发、Nodejs开发
-description: 欢迎来到我的博客~
-# 头像里面的标题
-avatarTitle: 无所畏惧，继续前行
-# 头像里面的描述
-avatarDesc: iOS、NodeJs
-url: "http://elvison.club"
+description: ~你的认知束缚你的行动~
+keyword: 'Elvison, Elvison的独立博客, 前端, ios, ios开发, IOS博客, javascript, nodejs'
+url: 'http://elvison.club' # your host
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-# Comment
-comment:
-    disqus: Elvison
-    # uyan: 2143225  # 有言id,登录有言官网申请
-
-# Social
-social:
-    weibo: 2116897990
-    github: Elvison
-    # twitter: 
-    mail: songbo469621765@163.com
-
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-#baidu:
-#    id: 8ba1c6be0953b6f9c2ba38e57f615421  
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-#ga:
-#    id: UA-84134159-3   
-#    host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+permalink: '/:year/:month/:title/'
+textColor: null
 cover_color: clear
 
-# The blog button should not be removed.
+# Author 配置博主信息
+avatarTitle: 无所畏惧
+avatarDesc: 继续前行
+
+# Comments & social
+comment:
+  disqus: Elvison
+social:
+  weibo: '2116897990'
+  github: Elvison
+  mail: songbo469621765@163.com
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+
+# Navigation links
 blog_button:
-    title: 博客主页
-
-# Navigation buttons in the front page.s
+  title: 博客主页
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
-    
+  - title: 所有文章
+    description: archive
+    url: /archive
+  - title: 标签
+    description: tags
+    url: /tags
+  - title: 关于我
+    description: about
+    url: /about
 
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
+# Site Admin
+jekyll_admin:
+  hidden_links: 'null'
 
+# Plugins  
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-admin
 
+# Build settings
+paginate: 20    # pre page count
+paginate_path: 'page/:num/'  #分页路径方式
