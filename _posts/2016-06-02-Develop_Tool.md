@@ -1,7 +1,7 @@
 ---
-layout: post
 title: 开发常用工具
-date: 2016-06-02 11:15:06 
+layout: post
+date: '2016-06-02 19:15:06 +0800'
 tag: 工具
 ---
 
@@ -41,5 +41,3 @@ tag: 工具
 [flaticon](http://www.flaticon.com/) 各种icon的设计，一定有你想想要的。
 
 <br>
-
-转载请注明：[潘柏信的博客](http://baixin) » [点击阅读原文](http://baixin.io/2016/06/Develop_Tool/)

@@ -46,10 +46,14 @@ nav:
 
 # Site Admin
 jekyll_admin:
-  hidden_links: 'null'
-
+  hidden_links: 
+    #- posts
+    #- pages
+    #- staticfiles
+    - datafiles
+    #- configuration
 # Plugins  
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-admin
