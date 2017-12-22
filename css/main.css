@@ -18,6 +18,9 @@
   overflow: scroll
 }
 
+.markdown-body a {
+  color: #3190d0 !important;
+}
 .markdown-body img {
   transition: .3s
 }
@@ -31,7 +34,7 @@
 }
 
 .markdown-body p,.markdown-body ul>li {
-    font-size: 16px;
+    font-size: 16px !important;
     /**font-weight: 200;**/
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto
@@ -50,13 +53,13 @@
   }
 
   .markdown-body strong {
-    font-weight: 400
+    font-weight: 400 !important
   }
 
   .markdown-body blockquote p {
-    font-size: 16px;
+    font-size: 16px  !important;
     letter-spacing: 1px;
-    color: #888;
+    color: #888 !important;
     word-break: break-all
   }
 

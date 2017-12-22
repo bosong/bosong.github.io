@@ -5,7 +5,7 @@ description: ~你的认知束缚你的行动~
 keyword: 'Elvison, Elvison的独立博客, 前端, ios, ios开发, IOS博客, javascript, nodejs'
 url: 'http://elvison.club' # your host
 # if you don't need baseurl, you should leave this value blank.
-baseurl: ''
+baseurl: null
 
 permalink: '/:year/:month/:title/'
 textColor: null
