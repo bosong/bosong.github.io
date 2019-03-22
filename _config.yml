@@ -3,7 +3,7 @@ title: Elvison
 subtitle: IOS开发、Nodejs开发
 description: ~你的认知束缚你的行动~
 keyword: 'Elvison, Elvison的独立博客, 前端, ios, ios开发, IOS博客, javascript, nodejs'
-url: 'http://elvison.club' # your host
+#url: 'http://elvison.club' # your host http://elvison.club
 # if you don't need baseurl, you should leave this value blank.
 baseurl: null
 
